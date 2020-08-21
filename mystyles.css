@@ -1,0 +1,55 @@
+body {
+    font-family: helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(4, 61, 68);
+    background-color: palegoldenrod;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color: rgb(1, 1, 71);
+}
+
+h2 {
+    font-family: helvetica;
+    margin: 1em 0 0.25em;
+    color: rgb(31, 2, 85);
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid rgb(39, 39, 39);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 15px;
+}
+
+td {
+    width: 15px;
+}
+
+input[type= number] {
+    font-family: helvetica;
+    width: 5em;
+    color: rgb(145, 46, 7);
+}
+
+input[type= submit] {
+    font-family: fantasy;
+    width: 5em;
+    color: rgb(58, 2, 46);
+}
